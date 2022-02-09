@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(../img/diu.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.birthday-countdown ul{
+    list-style: none;
+    padding: 0;
+}
+.birthday-countdown ul{
+    padding: 10px 4px;
+}
+.card-title{
+    text-align: center;
+    text-transform: capitalize;
+}
+.card-id{
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.dob{
+    font-size: 16px;
+    text-align: center;
+}
+.dob span{
+    background: rgb(8, 206, 173);
+    color: #fff;
+    padding: 1px 4px;
+    border-radius: 3px;
+}
+.title{
+    text-align: center;
+    color: chocolate;
+    /* border: 1px dotted #11a6ac; */
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.register a{
+    text-decoration: none;
+    background: rgb(8, 206, 173);
+    color: #fff;
+    padding: 4px 6px;
+}
+.register{
+    font-size: 14px;
+}
+.card{
+    background: rgba(255, 255, 255, 0.560);
+}
+.card-text{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(11, 147, 151);
+    text-align: center;
+    text-transform: capitalize;
+}
+.birthday-countdown ul hr{
+    height: 20px;
+    width: 2px;
+    background: rgb(255, 255, 255);
+    margin: 0;
+    opacity: 1;
+}
+.birthday-countdown ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(17, 166, 172);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 3px;
+}
