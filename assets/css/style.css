@@ -49,7 +49,9 @@
     padding: 4px 6px;
 }
 .register{
+    font-weight: 500;
     font-size: 14px;
+    color: brown;
 }
 .card{
     background: rgba(255, 255, 255, 0.560);
