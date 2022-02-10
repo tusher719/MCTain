@@ -44,9 +44,10 @@
 }
 .register a{
     text-decoration: none;
-    background: rgb(8, 206, 173);
+    background: brown;
     color: #fff;
-    padding: 4px 6px;
+    padding: 1px 8px;
+    border-radius: 3px;
 }
 .register{
     font-weight: 500;
