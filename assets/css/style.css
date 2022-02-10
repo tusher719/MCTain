@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+p{
+    margin: 0;
+}
 .main{
     background-image: url(../img/diu.jpg);
     background-repeat: no-repeat;
@@ -36,15 +39,23 @@
     border-radius: 3px;
 }
 .title{
-    text-align: center;
-    color: chocolate;
-    /* border: 1px dotted #11a6ac; */
     margin-top: 10px;
     text-decoration: underline;
+    text-align: center;
+}
+.title h2{
+    color: chocolate;
+    background: rgb(255 255 255 / 28%);
+    padding: 4px 18px;
+    border-radius: 3px;
+    display: inline-block;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 .register a{
     text-decoration: none;
-    background: brown;
+    background: rgba(165, 42, 42, 0.767);
     color: #fff;
     padding: 1px 8px;
     border-radius: 3px;
@@ -52,7 +63,7 @@
 .register{
     font-weight: 500;
     font-size: 14px;
-    color: brown;
+    color: #dee2e6;
 }
 .card{
     background: rgba(255, 255, 255, 0.560);
@@ -79,4 +90,19 @@
     color: #fff;
     font-weight: 500;
     border-radius: 3px;
+}
+
+footer{
+    text-align: center;
+    padding: 12px 0;
+    background-color: #A8A8A8;
+}
+footer p a{
+    text-decoration: none;
+    color: #a52a2a;
+    font-weight: 500;
+}
+footer p a:hover{
+    color: #a52a2a;
+    text-decoration: underline;
 }
