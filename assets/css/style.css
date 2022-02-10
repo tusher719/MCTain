@@ -40,7 +40,6 @@ p{
 }
 .title{
     margin-top: 10px;
-    text-decoration: underline;
     text-align: center;
 }
 .title h2{
@@ -49,9 +48,6 @@ p{
     padding: 4px 18px;
     border-radius: 3px;
     display: inline-block;
-    /* text-align: center; */
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 .register a{
     text-decoration: none;
