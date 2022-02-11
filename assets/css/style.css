@@ -30,22 +30,27 @@ p{
     font-size: 26px;
     font-family: 'Dancing Script', cursive;
     font-weight: 500;
+    color: #fff;
 }
 .card-id{
     font-size: 16px;
+    font-weight: 400;
     text-align: center;
     text-transform: capitalize;
+    color: #fff;
 }
 .dob{
     font-size: 16px;
     text-align: center;
+    color: #fff;
 }
 .dob span{
-    background: rgb(8, 206, 173);
+    background: rgb(17 167 172 / 64%);
     color: #fff;
     padding: 1px 4px;
     border-radius: 3px;
 }
+
 .title{
     margin-top: 10px;
     text-align: center;
@@ -53,7 +58,7 @@ p{
 .title h2{
     color: #fff;
     background: rgb(0 0 0 / 28%);
-    padding: 4px 18px;
+    padding: 8px 18px;
     border-radius: 3px;
     display: inline-block;
     font-family: 'Quintessential', cursive;
@@ -72,7 +77,12 @@ p{
     color: #dee2e6;
 }
 .card{
-    background: rgba(255, 255, 255, 0.560);
+    background: rgba( 0, 0, 0, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .card-text{
     font-size: 20px;
@@ -92,10 +102,14 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgb(17, 166, 172);
+    /* background: rgb(17 167 172 / 64%); */
     color: #fff;
     font-weight: 500;
-    border-radius: 3px;
+    /* border-radius: 3px; */
+    border-radius: 5px;
+background: #11a7ac;
+box-shadow: inset 10px 10px 20px #0c7578,
+            inset -10px -10px 20px #16d9e0;
 }
 
 footer{
