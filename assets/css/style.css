@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +13,10 @@ p{
     background-size: cover;
     background-attachment: fixed;
 }
+.main-overlay{
+    background: rgba(0, 0, 0, .6);
+	padding: 20px 0px;
+}
 .birthday-countdown ul{
     list-style: none;
     padding: 0;
@@ -22,6 +27,7 @@ p{
 .card-title{
     text-align: center;
     text-transform: capitalize;
+    /* font-size: 24px; */
 }
 .card-id{
     font-size: 16px;
@@ -43,11 +49,13 @@ p{
     text-align: center;
 }
 .title h2{
-    color: chocolate;
-    background: rgb(255 255 255 / 28%);
+    color: #fff;
+    background: rgb(0 0 0 / 28%);
     padding: 4px 18px;
     border-radius: 3px;
     display: inline-block;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
 }
 .register a{
     text-decoration: none;
