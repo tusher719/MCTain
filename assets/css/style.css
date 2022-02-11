@@ -52,17 +52,22 @@ p{
 }
 
 .title{
-    margin-top: 10px;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .title h2{
     color: #fff;
-    background: rgb(0 0 0 / 28%);
+    /* background: rgb(0 0 0 / 28%); */
     padding: 8px 18px;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     display: inline-block;
     font-family: 'Quintessential', cursive;
     letter-spacing: 2px;
+    border-radius: 5px;
+background: linear-gradient(145deg, #12b3b8, #0f969b);
+box-shadow:  5px 5px 10px #0c7377,
+             -5px -5px 10px #0fa5aa;
 }
 .register a{
     text-decoration: none;
