@@ -67,7 +67,7 @@ p{
     border-radius: 5px;
 background: linear-gradient(145deg, #12b3b8, #0f969b);
 box-shadow:  5px 5px 10px #0c7377,
-             -5px -5px 10px #0fa5aa;
+            -5px -5px 10px #0fa5aa;
 }
 .register a{
     text-decoration: none;
@@ -99,9 +99,13 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .birthday-countdown ul hr{
     height: 20px;
     width: 2px;
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
     margin: 0;
     opacity: 1;
+    /* border-radius: 5px; */
+background: linear-gradient(145deg, #cecece, #6e6e6e);
+box-shadow:  0px 1px 3px #074345,
+            0px 0px 3px #1bffff;
 }
 .birthday-countdown ul{
     display: flex;
@@ -112,9 +116,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-weight: 500;
     /* border-radius: 3px; */
     border-radius: 5px;
-background: #11a7ac;
-box-shadow: inset 10px 10px 20px #0c7578,
-            inset -10px -10px 20px #16d9e0;
+    background: #11a7ac;
+    box-shadow: inset 10px 10px 20px #0c7578,
+    inset -10px -10px 20px #16d9e0;
 }
 
 footer{
